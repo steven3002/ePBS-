@@ -1,0 +1,13 @@
+{
+  "name": "epbs-pulse-mvp",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Read-only MVP monitor for EIP-7732 ePBS events",
+  "author": "Ifeadi Gospel",
+  "license": "Apache-2.0",
+  "scripts": {
+    "pulse:full": "node src/parse-events.mjs fixtures/slot_full_sequence.json",
+    "pulse:empty": "node src/parse-events.mjs fixtures/slot_empty_sequence.json",
+    "pulse:bad": "node src/parse-events.mjs fixtures/slot_corrupted_sequence.json"
+  }
+}
