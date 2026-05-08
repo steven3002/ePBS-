@@ -17,7 +17,7 @@ This MVP demonstrates the core logic engine:
 
 ### Installation
 ```bash
-git clone https://github.com/steven3002/ePBS-.git
+git clone https://github.com/steven3002/ePBS-pulse.git
 cd epbs-
 npm install
 ```
