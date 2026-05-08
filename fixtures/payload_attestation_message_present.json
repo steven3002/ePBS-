@@ -1,0 +1,6 @@
+{
+  "type": "payload_attestation_message",
+  "slot": 12345,
+  "payload_present": true,
+  "blob_data_available": true
+}

@@ -1,0 +1,7 @@
+{
+  "type": "execution_payload_bid",
+  "slot": 12345,
+  "builder_index": 42,
+  "block_hash": "0xabc123789def0123456789abcdef0123456789abcdef0123456789abcdef",
+  "value": "1000000000"
+}

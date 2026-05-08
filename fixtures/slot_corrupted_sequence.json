@@ -1,0 +1,20 @@
+[
+  {
+    "type": "execution_payload_bid",
+    "slot": 12347,
+    "builder_index": 7,
+    "block_hash": "0xbad789...",
+    "value": "200000000"
+  },
+  {
+    "type": "execution_payload_available",
+    "slot": 12347,
+    "block_hash": "0xbad789..."
+  },
+  {
+    "type": "payload_attestation_message",
+    "slot": 12347,
+    "payload_present": false,
+    "blob_data_available": false
+  }
+]

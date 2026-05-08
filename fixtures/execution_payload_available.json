@@ -1,0 +1,5 @@
+{
+  "type": "execution_payload_available",
+  "slot": 12345,
+  "block_hash": "0xabc123789def0123456789abcdef0123456789abcdef0123456789abcdef"
+}

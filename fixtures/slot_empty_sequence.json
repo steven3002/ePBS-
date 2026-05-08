@@ -1,0 +1,15 @@
+[
+  {
+    "type": "execution_payload_bid",
+    "slot": 12346,
+    "builder_index": 19,
+    "block_hash": "0xdef456...",
+    "value": "500000000"
+  },
+  {
+    "type": "payload_attestation_message",
+    "slot": 12346,
+    "payload_present": false,
+    "blob_data_available": false
+  }
+]
