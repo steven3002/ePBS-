@@ -1,0 +1,19 @@
+{
+  "title": "ePBS Pulse: Operator Readiness",
+  "panels": [
+    {
+      "title": "Slot State Timeline",
+      "type": "state-timeline",
+      "targets": [
+        { "expr": "epbs_pulse_slot_verdict" }
+      ]
+    },
+    {
+      "title": "Builder Bid Success Rate",
+      "type": "gauge",
+      "targets": [
+        { "expr": "sum(epbs_pulse_payload_bids_total) / sum(epbs_pulse_slots_observed_total)" }
+      ]
+    }
+  ]
+}

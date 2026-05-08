@@ -8,6 +8,8 @@
   "scripts": {
     "pulse:full": "node src/parse-events.mjs fixtures/slot_full_sequence.json",
     "pulse:empty": "node src/parse-events.mjs fixtures/slot_empty_sequence.json",
-    "pulse:bad": "node src/parse-events.mjs fixtures/slot_corrupted_sequence.json"
+    "pulse:bad": "node src/parse-events.mjs fixtures/slot_corrupted_sequence.json",
+    "metrics:full": "node src/metrics.mjs fixtures/slot_full_sequence.json",
+    "metrics:empty": "node src/metrics.mjs fixtures/slot_empty_sequence.json"
   }
 }
